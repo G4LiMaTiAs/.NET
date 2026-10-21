@@ -1,9 +1,9 @@
 Filmdle
 Podział projektu na 5 etapów zorientowanych na prezentację postępów (od warstwy wizualnej i szkieletu, przez kolejne minigry, aż po moduł sieciowy i wdrożenie):
-Etap 1: Main-page i szkielet aplikacji (Hub / Nawigacja)
+Etap 1: Main-page i szkielet aplikacji
 Cel prezentacji: Prowadzący widzi działający szkielet webowy, spójny interfejs dashboardu, routing oraz przygotowane kontenery na poszczególne tryby gry.
 1. Architektura i projekt bazowy
- * Frontend: Struktura SPA (lub Razor Pages/Blazor/czysty JS) ze zdefiniowanym motywem graficznym (typ stradev valley).
+ * Frontend: Struktura SPA ze zdefiniowanym motywem graficznym (typ stradev valley).
  * Zarządzanie tożsamością bez kont:
    * Skrypt startowy weryfikujący sessionStorage pod kątem obecności playerId. W przypadku braku – generowanie i zapisanie crypto.randomUUID().
 2. Widok główny (Mainscreen)
